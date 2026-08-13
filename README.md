@@ -52,7 +52,7 @@ DSS Repair Kits provides multiple specialised vehicle repair items, skill checks
 | engine_kit | Repairs engine health only |
 | full_kit | Repairs body, engine, all damaged tyres and fully cleans vehicle |
 
-| Full kit stage | Action |
+| Full kit repair stages | Action |
 | --- | --- |
 | 1 | Tyre repair function |
 | 2 | Body repair function |
