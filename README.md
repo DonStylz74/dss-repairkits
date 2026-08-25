@@ -90,7 +90,7 @@ Before you begin, ensure you have met the following requirements:
 - ensure ox_lib
 - ensure ox_target
 - ensure ox_inventory
-- ensure dss_scuba
+- ensure dss_repairkits
 
 4. Add the repair kit items to your ox_inventory items configuration.
 
