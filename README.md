@@ -78,7 +78,7 @@ Before you begin, ensure you have met the following requirements:
 4. Add the repair kit items to your ox_inventory items configuration.
 5. Add repair kit images to your ox_inventory/web/images folder.
 
-###OX Item Example:
+### OX Item Example:
 ```lua
 ['cleaning_kit'] = {
     label = 'Vehicle Cleaning Kit',
