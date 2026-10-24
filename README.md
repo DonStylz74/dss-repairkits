@@ -27,12 +27,10 @@ DSS Repair Kits provides multiple specialised vehicle repair items, skill checks
 | Configurable chance to lose a kits | ✅ |
 | Per-kit server-side validation | ✅ |
 | Repair animations and attached repair props | ✅ |
-| Bone-based targeting for wheels, body panels, engine areas and trunk areas | ✅ |
+| Bone-based targeting for wheels, body, engine & trunk areas | ✅ |
 | Dedicated vehicle cleaning kit | ✅ |
 | Multi-stage Full Repair Kit sequence | ✅ |
-| Individual tyre repairs | ✅ |
-| Body-only repairs | ✅ |
-| Engine-only repairs | ✅ |
+| Individual Tyre, Body & Engine repairs | ✅ |
 | Configurable logging | ✅ |
 | Server-side inventory validation and item removal | ✅ |
 | Admin cooldown reset command | ✅ |
@@ -82,22 +80,16 @@ Before you begin, ensure you have met the following requirements:
 ### Installation
 
 1. Place the resource in your FiveM resources directory: /resources/dss-repairkits
-
 2. Ensure the required dependencies are installed and started.
-
 3. Add the resource to your server configuration:
-
 - ensure ox_lib
 - ensure ox_target
 - ensure ox_inventory
 - ensure dss_repairkits
-
 4. Add the repair kit items to your ox_inventory items configuration.
-
 5. Add repair kit images to your ox_inventory/web/images folder.
 
-Example:
-
+OX Item Example:
 ```lua
 ['cleaning_kit'] = {
     label = 'Vehicle Cleaning Kit',
@@ -126,7 +118,6 @@ Example:
 
 6. Configure Repair kits via config.lua file.
 7. Restart the resource or server.
-
 
 
 ## Authors
