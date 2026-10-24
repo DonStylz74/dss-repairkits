@@ -15,29 +15,25 @@ DSS Repair Kits provides multiple specialised vehicle repair items, skill checks
 | ESX Legacy support | ✅ |
 | ox_inventory usable items | ✅ |
 | ox_target | ✅ |
-| ox_lib skill checks | ✅ |
-| ox_lib progress bars | ✅ |
-| ox_lib notifications | ✅ |
-| Configurable repair percentages | ✅ |
-| Configurable repair durations | ✅ |
+| ox_lib skill checks, progress bars, notifications | ✅ |
+| Configurable repair percentages & durations | ✅ |
 | Configurable skill-check difficulty | ✅ |
 | Configurable cooldowns | ✅ |
-| Configurable job and minimum-grade restrictions | ✅ |
+| Configurable job and job-grade restrictions | ✅ |
 | Configurable vehicle-class restrictions | ✅ |
-| Configurable chance to lose a kits | ✅ |
-| Per-kit server-side validation | ✅ |
+| Configurable chance to lose kits | ✅ |
 | Repair animations and attached repair props | ✅ |
 | Bone-based targeting for wheels, body, engine & trunk areas | ✅ |
 | Dedicated vehicle cleaning kit | ✅ |
 | Multi-stage Full Repair Kit sequence | ✅ |
 | Individual Tyre, Body & Engine repairs | ✅ |
+| Support for multi-axle tyre indexes used by some vehicles | ✅ |
 | Configurable logging | ✅ |
 | Server-side inventory validation and item removal | ✅ |
+| Per-kit server-side validation | ✅ |
 | Admin cooldown reset command | ✅ |
-| Support for multi-axle tyre indexes used by some vehicles | ✅ |
 
 [📱 Visit this Project](https://github.com/DonStylz74)
-
 
 
 ## Getting Started
@@ -50,7 +46,7 @@ DSS Repair Kits provides multiple specialised vehicle repair items, skill checks
 | engine_kit | Repairs engine health only |
 | full_kit | Repairs body, engine, all damaged tyres and fully cleans vehicle |
 
-| Full kit repair stages | Action |
+| Full kit repair stages | Action Sequence |
 | --- | --- |
 | 1 | Tyre repair function |
 | 2 | Body repair function |
@@ -59,23 +55,16 @@ DSS Repair Kits provides multiple specialised vehicle repair items, skill checks
 | Final | Complete vehicle repair is applied |
 
 The resource includes an admin command:
-
 - /repair_clearcd
-
 It clears the repair-kit cooldown table.
-
-
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-
 - ESX Legacy
 - ox_lib
 - ox_target
 - ox_inventory
-
-
 
 ### Installation
 
@@ -89,7 +78,7 @@ Before you begin, ensure you have met the following requirements:
 4. Add the repair kit items to your ox_inventory items configuration.
 5. Add repair kit images to your ox_inventory/web/images folder.
 
-OX Item Example:
+###OX Item Example:
 ```lua
 ['cleaning_kit'] = {
     label = 'Vehicle Cleaning Kit',
@@ -123,17 +112,7 @@ OX Item Example:
 ## Authors
 - **Don Stylz** - [Don_Stylz74](https://github.com/DonStylz74)
 
-
-
 ## License
-Review the LICENSE file included with the resource for the licensing terms that apply to this version.
-
-Because DSS Scuba is derived from an existing project, retain the appropriate original copyright, licence notices and attribution where required.
-
-
-
-## License
-
 I've released this project under the [MIT License](LICENSE.md).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
